@@ -1,0 +1,1057 @@
+/*	Пиктограммы государственных флагов в спрайте
+/*	@author Артём Поликарпов, artpolikarpov.ru (artpolikarpov@gmail.com)
+
+/* Эти летом я был: в <i class="b-fg b-fg_nh"><img src="fg.png"/></i> Гондурасе, <i class="b-fg b-fg_li"><img src="fg.png"/></i> Лихтенштейне, <i class="b-fg b-fg_se"><img src="fg.png"/></i> и Швеции. */
+
+@import "compass"
+
+$i: 0
+$sprite: 'fg.png'
+$flagWidth: 16px
+$flagHeight: 9px
+
+.b-fg
+	display: -moz-inline-box
+	-moz-box-orient: vertical
+	display: inline-block
+	*display: inline
+	*zoom: 1
+	vertical-align: baseline
+	position: relative
+	overflow: hidden
+	width: $flagWidth
+	height: $flagHeight
+	font-size: 0
+	line-height: 0
+	img
+		display: inline
+		border: none
+		margin: 0
+		padding: 0
+		position: relative
+		top: $flagHeight
+		+transition(top, .25s)
+
+.b-fg_no-transition
+	img
+		+transition(none)
+
+=flag
+	img
+		top: -($i * $flagHeight)
+
+.b-fg_abkhazia
+	+flag
+$i: $i + 1
+
+.b-fg_ad
+	+flag
+$i: $i + 1
+
+.b-fg_ae
+	+flag
+$i: $i + 1
+
+.b-fg_af
+	+flag
+$i: $i + 1
+
+.b-fg_ag
+	+flag
+$i: $i + 1
+
+.b-fg_ai
+	+flag
+$i: $i + 1
+
+.b-fg_al
+	+flag
+$i: $i + 1
+
+.b-fg_am
+	+flag
+$i: $i + 1
+
+.b-fg_an
+	+flag
+$i: $i + 1
+
+.b-fg_ao
+	+flag
+$i: $i + 1
+
+.b-fg_aq
+	+flag
+$i: $i + 1
+
+.b-fg_ar
+	+flag
+$i: $i + 1
+
+.b-fg_as
+	+flag
+$i: $i + 1
+
+.b-fg_at
+	+flag
+$i: $i + 1
+
+.b-fg_au
+	+flag
+$i: $i + 1
+
+.b-fg_aw
+	+flag
+$i: $i + 1
+
+.b-fg_ax
+	+flag
+$i: $i + 1
+
+.b-fg_az
+	+flag
+$i: $i + 1
+
+.b-fg_ba
+	+flag
+$i: $i + 1
+
+.b-fg_bb
+	+flag
+$i: $i + 1
+
+.b-fg_bd
+	+flag
+$i: $i + 1
+
+.b-fg_be
+	+flag
+$i: $i + 1
+
+.b-fg_bf
+	+flag
+$i: $i + 1
+
+.b-fg_bg
+	+flag
+$i: $i + 1
+
+.b-fg_bh
+	+flag
+$i: $i + 1
+
+.b-fg_bi
+	+flag
+$i: $i + 1
+
+.b-fg_bj
+	+flag
+$i: $i + 1
+
+.b-fg_bl
+	+flag
+$i: $i + 1
+
+.b-fg_bm
+	+flag
+$i: $i + 1
+
+.b-fg_bn
+	+flag
+$i: $i + 1
+
+.b-fg_bo
+	+flag
+$i: $i + 1
+
+.b-fg_br
+	+flag
+$i: $i + 1
+
+.b-fg_bs
+	+flag
+$i: $i + 1
+
+.b-fg_bt
+	+flag
+$i: $i + 1
+
+.b-fg_bv
+	+flag
+$i: $i + 1
+
+.b-fg_bw
+	+flag
+$i: $i + 1
+
+.b-fg_by
+	+flag
+$i: $i + 1
+
+.b-fg_bz
+	+flag
+$i: $i + 1
+
+.b-fg_ca
+	+flag
+$i: $i + 1
+
+.b-fg_cc
+	+flag
+$i: $i + 1
+
+.b-fg_cd
+	+flag
+$i: $i + 1
+
+.b-fg_cf
+	+flag
+$i: $i + 1
+
+.b-fg_cg
+	+flag
+$i: $i + 1
+
+.b-fg_ch
+	+flag
+$i: $i + 1
+
+.b-fg_ci
+	+flag
+$i: $i + 1
+
+.b-fg_ck
+	+flag
+$i: $i + 1
+
+.b-fg_cl
+	+flag
+$i: $i + 1
+
+.b-fg_cm
+	+flag
+$i: $i + 1
+
+.b-fg_cn
+	+flag
+$i: $i + 1
+
+.b-fg_co
+	+flag
+$i: $i + 1
+
+.b-fg_cr
+	+flag
+$i: $i + 1
+
+.b-fg_cu
+	+flag
+$i: $i + 1
+
+.b-fg_cv
+	+flag
+$i: $i + 1
+
+.b-fg_cx
+	+flag
+$i: $i + 1
+
+.b-fg_cy
+	+flag
+$i: $i + 1
+
+.b-fg_cz
+	+flag
+$i: $i + 1
+
+.b-fg_de
+	+flag
+$i: $i + 1
+
+.b-fg_dj
+	+flag
+$i: $i + 1
+
+.b-fg_dk
+	+flag
+$i: $i + 1
+
+.b-fg_dm
+	+flag
+$i: $i + 1
+
+.b-fg_do
+	+flag
+$i: $i + 1
+
+.b-fg_dz
+	+flag
+$i: $i + 1
+
+.b-fg_ec
+	+flag
+$i: $i + 1
+
+.b-fg_ee
+	+flag
+$i: $i + 1
+
+.b-fg_eg
+	+flag
+$i: $i + 1
+
+.b-fg_eh
+	+flag
+$i: $i + 1
+
+.b-fg_er
+	+flag
+$i: $i + 1
+
+.b-fg_es-ce
+	+flag
+$i: $i + 1
+
+.b-fg_es-ml
+	+flag
+$i: $i + 1
+
+.b-fg_es
+	+flag
+$i: $i + 1
+
+.b-fg_et
+	+flag
+$i: $i + 1
+
+.b-fg_eu
+	+flag
+$i: $i + 1
+
+.b-fg_fi
+	+flag
+$i: $i + 1
+
+.b-fg_fj
+	+flag
+$i: $i + 1
+
+.b-fg_fk
+	+flag
+$i: $i + 1
+
+.b-fg_fm
+	+flag
+$i: $i + 1
+
+.b-fg_fo
+	+flag
+$i: $i + 1
+
+.b-fg_fr
+	+flag
+$i: $i + 1
+
+.b-fg_ga
+	+flag
+$i: $i + 1
+
+.b-fg_gb
+	+flag
+$i: $i + 1
+
+.b-fg_gd
+	+flag
+$i: $i + 1
+
+.b-fg_ge
+	+flag
+$i: $i + 1
+
+.b-fg_gf
+	+flag
+$i: $i + 1
+
+.b-fg_gg
+	+flag
+$i: $i + 1
+
+.b-fg_gh
+	+flag
+$i: $i + 1
+
+.b-fg_gi
+	+flag
+$i: $i + 1
+
+.b-fg_gl
+	+flag
+$i: $i + 1
+
+.b-fg_gm
+	+flag
+$i: $i + 1
+
+.b-fg_gn
+	+flag
+$i: $i + 1
+
+.b-fg_gp
+	+flag
+$i: $i + 1
+
+.b-fg_gq
+	+flag
+$i: $i + 1
+
+.b-fg_gr
+	+flag
+$i: $i + 1
+
+.b-fg_gs
+	+flag
+$i: $i + 1
+
+.b-fg_gt
+	+flag
+$i: $i + 1
+
+.b-fg_gu
+	+flag
+$i: $i + 1
+
+.b-fg_gw
+	+flag
+$i: $i + 1
+
+.b-fg_gy
+	+flag
+$i: $i + 1
+
+.b-fg_hk
+	+flag
+$i: $i + 1
+
+.b-fg_hm
+	+flag
+$i: $i + 1
+
+.b-fg_hn
+	+flag
+$i: $i + 1
+
+.b-fg_hr
+	+flag
+$i: $i + 1
+
+.b-fg_ht
+	+flag
+$i: $i + 1
+
+.b-fg_hu
+	+flag
+$i: $i + 1
+
+.b-fg_ic
+	+flag
+$i: $i + 1
+
+.b-fg_id
+	+flag
+$i: $i + 1
+
+.b-fg_ie
+	+flag
+$i: $i + 1
+
+.b-fg_il
+	+flag
+$i: $i + 1
+
+.b-fg_im
+	+flag
+$i: $i + 1
+
+.b-fg_in
+	+flag
+$i: $i + 1
+
+.b-fg_io
+	+flag
+$i: $i + 1
+
+.b-fg_iq
+	+flag
+$i: $i + 1
+
+.b-fg_ir
+	+flag
+$i: $i + 1
+
+.b-fg_is
+	+flag
+$i: $i + 1
+
+.b-fg_it
+	+flag
+$i: $i + 1
+
+.b-fg_je
+	+flag
+$i: $i + 1
+
+.b-fg_jm
+	+flag
+$i: $i + 1
+
+.b-fg_jo
+	+flag
+$i: $i + 1
+
+.b-fg_jp
+	+flag
+$i: $i + 1
+
+.b-fg_ke
+	+flag
+$i: $i + 1
+
+.b-fg_kg
+	+flag
+$i: $i + 1
+
+.b-fg_kh
+	+flag
+$i: $i + 1
+
+.b-fg_ki
+	+flag
+$i: $i + 1
+
+.b-fg_km
+	+flag
+$i: $i + 1
+
+.b-fg_kn
+	+flag
+$i: $i + 1
+
+.b-fg_kosovo
+	+flag
+$i: $i + 1
+
+.b-fg_kp
+	+flag
+$i: $i + 1
+
+.b-fg_kr
+	+flag
+$i: $i + 1
+
+.b-fg_kw
+	+flag
+$i: $i + 1
+
+.b-fg_ky
+	+flag
+$i: $i + 1
+
+.b-fg_kz
+	+flag
+$i: $i + 1
+
+.b-fg_la
+	+flag
+$i: $i + 1
+
+.b-fg_lb
+	+flag
+$i: $i + 1
+
+.b-fg_lc
+	+flag
+$i: $i + 1
+
+.b-fg_li
+	+flag
+$i: $i + 1
+
+.b-fg_lk
+	+flag
+$i: $i + 1
+
+.b-fg_lr
+	+flag
+$i: $i + 1
+
+.b-fg_ls
+	+flag
+$i: $i + 1
+
+.b-fg_lt
+	+flag
+$i: $i + 1
+
+.b-fg_lu
+	+flag
+$i: $i + 1
+
+.b-fg_lv
+	+flag
+$i: $i + 1
+
+.b-fg_ly
+	+flag
+$i: $i + 1
+
+.b-fg_ma
+	+flag
+$i: $i + 1
+
+.b-fg_mc
+	+flag
+$i: $i + 1
+
+.b-fg_md
+	+flag
+$i: $i + 1
+
+.b-fg_me
+	+flag
+$i: $i + 1
+
+.b-fg_mf
+	+flag
+$i: $i + 1
+
+.b-fg_mg
+	+flag
+$i: $i + 1
+
+.b-fg_mh
+	+flag
+$i: $i + 1
+
+.b-fg_mk
+	+flag
+$i: $i + 1
+
+.b-fg_ml
+	+flag
+$i: $i + 1
+
+.b-fg_mm
+	+flag
+$i: $i + 1
+
+.b-fg_mn
+	+flag
+$i: $i + 1
+
+.b-fg_mo
+	+flag
+$i: $i + 1
+
+.b-fg_mp
+	+flag
+$i: $i + 1
+
+.b-fg_mq
+	+flag
+$i: $i + 1
+
+.b-fg_mr
+	+flag
+$i: $i + 1
+
+.b-fg_ms
+	+flag
+$i: $i + 1
+
+.b-fg_mt
+	+flag
+$i: $i + 1
+
+.b-fg_mu
+	+flag
+$i: $i + 1
+
+.b-fg_mv
+	+flag
+$i: $i + 1
+
+.b-fg_mw
+	+flag
+$i: $i + 1
+
+.b-fg_mx
+	+flag
+$i: $i + 1
+
+.b-fg_my
+	+flag
+$i: $i + 1
+
+.b-fg_mz
+	+flag
+$i: $i + 1
+
+.b-fg_na
+	+flag
+$i: $i + 1
+
+.b-fg_nc
+	+flag
+$i: $i + 1
+
+.b-fg_ne
+	+flag
+$i: $i + 1
+
+.b-fg_nf
+	+flag
+$i: $i + 1
+
+.b-fg_ng
+	+flag
+$i: $i + 1
+
+.b-fg_ni
+	+flag
+$i: $i + 1
+
+.b-fg_nkr
+	+flag
+$i: $i + 1
+
+.b-fg_nl
+	+flag
+$i: $i + 1
+
+.b-fg_no
+	+flag
+$i: $i + 1
+
+.b-fg_np
+	+flag
+$i: $i + 1
+
+.b-fg_nr
+	+flag
+$i: $i + 1
+
+.b-fg_nu
+	+flag
+$i: $i + 1
+
+.b-fg_nz
+	+flag
+$i: $i + 1
+
+.b-fg_om
+	+flag
+$i: $i + 1
+
+.b-fg_pa
+	+flag
+$i: $i + 1
+
+.b-fg_pe
+	+flag
+$i: $i + 1
+
+.b-fg_pf
+	+flag
+$i: $i + 1
+
+.b-fg_pg
+	+flag
+$i: $i + 1
+
+.b-fg_ph
+	+flag
+$i: $i + 1
+
+.b-fg_pk
+	+flag
+$i: $i + 1
+
+.b-fg_pl
+	+flag
+$i: $i + 1
+
+.b-fg_pm
+	+flag
+$i: $i + 1
+
+.b-fg_pn
+	+flag
+$i: $i + 1
+
+.b-fg_pr
+	+flag
+$i: $i + 1
+
+.b-fg_ps
+	+flag
+$i: $i + 1
+
+.b-fg_pt
+	+flag
+$i: $i + 1
+
+.b-fg_pw
+	+flag
+$i: $i + 1
+
+.b-fg_py
+	+flag
+$i: $i + 1
+
+.b-fg_qa
+	+flag
+$i: $i + 1
+
+.b-fg_re
+	+flag
+$i: $i + 1
+
+.b-fg_ro
+	+flag
+$i: $i + 1
+
+.b-fg_rs
+	+flag
+$i: $i + 1
+
+.b-fg_ru
+	+flag
+$i: $i + 1
+
+.b-fg_rw
+	+flag
+$i: $i + 1
+
+.b-fg_sa
+	+flag
+$i: $i + 1
+
+.b-fg_sb
+	+flag
+$i: $i + 1
+
+.b-fg_sc
+	+flag
+$i: $i + 1
+
+.b-fg_sd
+	+flag
+$i: $i + 1
+
+.b-fg_se
+	+flag
+$i: $i + 1
+
+.b-fg_sg
+	+flag
+$i: $i + 1
+
+.b-fg_sh
+	+flag
+$i: $i + 1
+
+.b-fg_si
+	+flag
+$i: $i + 1
+
+.b-fg_sj
+	+flag
+$i: $i + 1
+
+.b-fg_sk
+	+flag
+$i: $i + 1
+
+.b-fg_sl
+	+flag
+$i: $i + 1
+
+.b-fg_sm
+	+flag
+$i: $i + 1
+
+.b-fg_sn
+	+flag
+$i: $i + 1
+
+.b-fg_so
+	+flag
+$i: $i + 1
+
+.b-fg_south-ossetia
+	+flag
+$i: $i + 1
+
+.b-fg_sr
+	+flag
+$i: $i + 1
+
+.b-fg_st
+	+flag
+$i: $i + 1
+
+.b-fg_sv
+	+flag
+$i: $i + 1
+
+.b-fg_sy
+	+flag
+$i: $i + 1
+
+.b-fg_sz
+	+flag
+$i: $i + 1
+
+.b-fg_tc
+	+flag
+$i: $i + 1
+
+.b-fg_td
+	+flag
+$i: $i + 1
+
+.b-fg_tf
+	+flag
+$i: $i + 1
+
+.b-fg_tg
+	+flag
+$i: $i + 1
+
+.b-fg_th
+	+flag
+$i: $i + 1
+
+.b-fg_tj
+	+flag
+$i: $i + 1
+
+.b-fg_tk
+	+flag
+$i: $i + 1
+
+.b-fg_tl
+	+flag
+$i: $i + 1
+
+.b-fg_tm
+	+flag
+$i: $i + 1
+
+.b-fg_tn
+	+flag
+$i: $i + 1
+
+.b-fg_to
+	+flag
+$i: $i + 1
+
+.b-fg_tr
+	+flag
+$i: $i + 1
+
+.b-fg_tt
+	+flag
+$i: $i + 1
+
+.b-fg_tv
+	+flag
+$i: $i + 1
+
+.b-fg_tw
+	+flag
+$i: $i + 1
+
+.b-fg_tz
+	+flag
+$i: $i + 1
+
+.b-fg_ua
+	+flag
+$i: $i + 1
+
+.b-fg_ug
+	+flag
+$i: $i + 1
+
+.b-fg_um
+	+flag
+$i: $i + 1
+
+.b-fg_us
+	+flag
+$i: $i + 1
+
+.b-fg_uy
+	+flag
+$i: $i + 1
+
+.b-fg_uz
+	+flag
+$i: $i + 1
+
+.b-fg_va
+	+flag
+$i: $i + 1
+
+.b-fg_vc
+	+flag
+$i: $i + 1
+
+.b-fg_ve
+	+flag
+$i: $i + 1
+
+.b-fg_vg
+	+flag
+$i: $i + 1
+
+.b-fg_vi
+	+flag
+$i: $i + 1
+
+.b-fg_vn
+	+flag
+$i: $i + 1
+
+.b-fg_vu
+	+flag
+$i: $i + 1
+
+.b-fg_wf
+	+flag
+$i: $i + 1
+
+.b-fg_ws
+	+flag
+$i: $i + 1
+
+.b-fg_ye
+	+flag
+$i: $i + 1
+
+.b-fg_yt
+	+flag
+$i: $i + 1
+
+.b-fg_za
+	+flag
+$i: $i + 1
+
+.b-fg_zm
+	+flag
+$i: $i + 1
+
+.b-fg_zw
+	+flag
+$i: $i + 1

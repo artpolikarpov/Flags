@@ -1,0 +1,515 @@
+/*	Пиктограммы государственных флагов в спрайте */
+/*	@author Артём Поликарпов, artpolikarpov.ru (artpolikarpov@gmail.com) */
+/* Эти летом я был: в <i class="b-fg b-fg_nh"><img src="fg.png"/></i> Гондурасе, <i class="b-fg b-fg_li"><img src="fg.png"/></i> Лихтенштейне, <i class="b-fg b-fg_se"><img src="fg.png"/></i> и Швеции. */
+.b-fg { display: -moz-inline-box; -moz-box-orient: vertical; display: inline-block; *display: inline; *zoom: 1; vertical-align: baseline; position: relative; overflow: hidden; width: 16px; height: 9px; font-size: 0; line-height: 0; }
+.b-fg img { display: inline; border: none; margin: 0; padding: 0; position: relative; top: 9px; -moz-transition-property: top; -webkit-transition-property: top; -o-transition-property: top; transition-property: top; -moz-transition-duration: 0.25s; -webkit-transition-duration: 0.25s; -o-transition-duration: 0.25s; transition-duration: 0.25s; }
+
+.b-fg_no-transition img { -moz-transition-property: none; -webkit-transition-property: none; -o-transition-property: none; transition-property: none; -moz-transition-duration: 1s; -webkit-transition-duration: 1s; -o-transition-duration: 1s; transition-duration: 1s; }
+
+.b-fg_abkhazia img { top: 0px; }
+
+.b-fg_ad img { top: -9px; }
+
+.b-fg_ae img { top: -18px; }
+
+.b-fg_af img { top: -27px; }
+
+.b-fg_ag img { top: -36px; }
+
+.b-fg_ai img { top: -45px; }
+
+.b-fg_al img { top: -54px; }
+
+.b-fg_am img { top: -63px; }
+
+.b-fg_an img { top: -72px; }
+
+.b-fg_ao img { top: -81px; }
+
+.b-fg_aq img { top: -90px; }
+
+.b-fg_ar img { top: -99px; }
+
+.b-fg_as img { top: -108px; }
+
+.b-fg_at img { top: -117px; }
+
+.b-fg_au img { top: -126px; }
+
+.b-fg_aw img { top: -135px; }
+
+.b-fg_ax img { top: -144px; }
+
+.b-fg_az img { top: -153px; }
+
+.b-fg_ba img { top: -162px; }
+
+.b-fg_bb img { top: -171px; }
+
+.b-fg_bd img { top: -180px; }
+
+.b-fg_be img { top: -189px; }
+
+.b-fg_bf img { top: -198px; }
+
+.b-fg_bg img { top: -207px; }
+
+.b-fg_bh img { top: -216px; }
+
+.b-fg_bi img { top: -225px; }
+
+.b-fg_bj img { top: -234px; }
+
+.b-fg_bl img { top: -243px; }
+
+.b-fg_bm img { top: -252px; }
+
+.b-fg_bn img { top: -261px; }
+
+.b-fg_bo img { top: -270px; }
+
+.b-fg_br img { top: -279px; }
+
+.b-fg_bs img { top: -288px; }
+
+.b-fg_bt img { top: -297px; }
+
+.b-fg_bv img { top: -306px; }
+
+.b-fg_bw img { top: -315px; }
+
+.b-fg_by img { top: -324px; }
+
+.b-fg_bz img { top: -333px; }
+
+.b-fg_ca img { top: -342px; }
+
+.b-fg_cc img { top: -351px; }
+
+.b-fg_cd img { top: -360px; }
+
+.b-fg_cf img { top: -369px; }
+
+.b-fg_cg img { top: -378px; }
+
+.b-fg_ch img { top: -387px; }
+
+.b-fg_ci img { top: -396px; }
+
+.b-fg_ck img { top: -405px; }
+
+.b-fg_cl img { top: -414px; }
+
+.b-fg_cm img { top: -423px; }
+
+.b-fg_cn img { top: -432px; }
+
+.b-fg_co img { top: -441px; }
+
+.b-fg_cr img { top: -450px; }
+
+.b-fg_cu img { top: -459px; }
+
+.b-fg_cv img { top: -468px; }
+
+.b-fg_cx img { top: -477px; }
+
+.b-fg_cy img { top: -486px; }
+
+.b-fg_cz img { top: -495px; }
+
+.b-fg_de img { top: -504px; }
+
+.b-fg_dj img { top: -513px; }
+
+.b-fg_dk img { top: -522px; }
+
+.b-fg_dm img { top: -531px; }
+
+.b-fg_do img { top: -540px; }
+
+.b-fg_dz img { top: -549px; }
+
+.b-fg_ec img { top: -558px; }
+
+.b-fg_ee img { top: -567px; }
+
+.b-fg_eg img { top: -576px; }
+
+.b-fg_eh img { top: -585px; }
+
+.b-fg_er img { top: -594px; }
+
+.b-fg_es-ce img { top: -603px; }
+
+.b-fg_es-ml img { top: -612px; }
+
+.b-fg_es img { top: -621px; }
+
+.b-fg_et img { top: -630px; }
+
+.b-fg_eu img { top: -639px; }
+
+.b-fg_fi img { top: -648px; }
+
+.b-fg_fj img { top: -657px; }
+
+.b-fg_fk img { top: -666px; }
+
+.b-fg_fm img { top: -675px; }
+
+.b-fg_fo img { top: -684px; }
+
+.b-fg_fr img { top: -693px; }
+
+.b-fg_ga img { top: -702px; }
+
+.b-fg_gb img { top: -711px; }
+
+.b-fg_gd img { top: -720px; }
+
+.b-fg_ge img { top: -729px; }
+
+.b-fg_gf img { top: -738px; }
+
+.b-fg_gg img { top: -747px; }
+
+.b-fg_gh img { top: -756px; }
+
+.b-fg_gi img { top: -765px; }
+
+.b-fg_gl img { top: -774px; }
+
+.b-fg_gm img { top: -783px; }
+
+.b-fg_gn img { top: -792px; }
+
+.b-fg_gp img { top: -801px; }
+
+.b-fg_gq img { top: -810px; }
+
+.b-fg_gr img { top: -819px; }
+
+.b-fg_gs img { top: -828px; }
+
+.b-fg_gt img { top: -837px; }
+
+.b-fg_gu img { top: -846px; }
+
+.b-fg_gw img { top: -855px; }
+
+.b-fg_gy img { top: -864px; }
+
+.b-fg_hk img { top: -873px; }
+
+.b-fg_hm img { top: -882px; }
+
+.b-fg_hn img { top: -891px; }
+
+.b-fg_hr img { top: -900px; }
+
+.b-fg_ht img { top: -909px; }
+
+.b-fg_hu img { top: -918px; }
+
+.b-fg_ic img { top: -927px; }
+
+.b-fg_id img { top: -936px; }
+
+.b-fg_ie img { top: -945px; }
+
+.b-fg_il img { top: -954px; }
+
+.b-fg_im img { top: -963px; }
+
+.b-fg_in img { top: -972px; }
+
+.b-fg_io img { top: -981px; }
+
+.b-fg_iq img { top: -990px; }
+
+.b-fg_ir img { top: -999px; }
+
+.b-fg_is img { top: -1008px; }
+
+.b-fg_it img { top: -1017px; }
+
+.b-fg_je img { top: -1026px; }
+
+.b-fg_jm img { top: -1035px; }
+
+.b-fg_jo img { top: -1044px; }
+
+.b-fg_jp img { top: -1053px; }
+
+.b-fg_ke img { top: -1062px; }
+
+.b-fg_kg img { top: -1071px; }
+
+.b-fg_kh img { top: -1080px; }
+
+.b-fg_ki img { top: -1089px; }
+
+.b-fg_km img { top: -1098px; }
+
+.b-fg_kn img { top: -1107px; }
+
+.b-fg_kosovo img { top: -1116px; }
+
+.b-fg_kp img { top: -1125px; }
+
+.b-fg_kr img { top: -1134px; }
+
+.b-fg_kw img { top: -1143px; }
+
+.b-fg_ky img { top: -1152px; }
+
+.b-fg_kz img { top: -1161px; }
+
+.b-fg_la img { top: -1170px; }
+
+.b-fg_lb img { top: -1179px; }
+
+.b-fg_lc img { top: -1188px; }
+
+.b-fg_li img { top: -1197px; }
+
+.b-fg_lk img { top: -1206px; }
+
+.b-fg_lr img { top: -1215px; }
+
+.b-fg_ls img { top: -1224px; }
+
+.b-fg_lt img { top: -1233px; }
+
+.b-fg_lu img { top: -1242px; }
+
+.b-fg_lv img { top: -1251px; }
+
+.b-fg_ly img { top: -1260px; }
+
+.b-fg_ma img { top: -1269px; }
+
+.b-fg_mc img { top: -1278px; }
+
+.b-fg_md img { top: -1287px; }
+
+.b-fg_me img { top: -1296px; }
+
+.b-fg_mf img { top: -1305px; }
+
+.b-fg_mg img { top: -1314px; }
+
+.b-fg_mh img { top: -1323px; }
+
+.b-fg_mk img { top: -1332px; }
+
+.b-fg_ml img { top: -1341px; }
+
+.b-fg_mm img { top: -1350px; }
+
+.b-fg_mn img { top: -1359px; }
+
+.b-fg_mo img { top: -1368px; }
+
+.b-fg_mp img { top: -1377px; }
+
+.b-fg_mq img { top: -1386px; }
+
+.b-fg_mr img { top: -1395px; }
+
+.b-fg_ms img { top: -1404px; }
+
+.b-fg_mt img { top: -1413px; }
+
+.b-fg_mu img { top: -1422px; }
+
+.b-fg_mv img { top: -1431px; }
+
+.b-fg_mw img { top: -1440px; }
+
+.b-fg_mx img { top: -1449px; }
+
+.b-fg_my img { top: -1458px; }
+
+.b-fg_mz img { top: -1467px; }
+
+.b-fg_na img { top: -1476px; }
+
+.b-fg_nc img { top: -1485px; }
+
+.b-fg_ne img { top: -1494px; }
+
+.b-fg_nf img { top: -1503px; }
+
+.b-fg_ng img { top: -1512px; }
+
+.b-fg_ni img { top: -1521px; }
+
+.b-fg_nkr img { top: -1530px; }
+
+.b-fg_nl img { top: -1539px; }
+
+.b-fg_no img { top: -1548px; }
+
+.b-fg_np img { top: -1557px; }
+
+.b-fg_nr img { top: -1566px; }
+
+.b-fg_nu img { top: -1575px; }
+
+.b-fg_nz img { top: -1584px; }
+
+.b-fg_om img { top: -1593px; }
+
+.b-fg_pa img { top: -1602px; }
+
+.b-fg_pe img { top: -1611px; }
+
+.b-fg_pf img { top: -1620px; }
+
+.b-fg_pg img { top: -1629px; }
+
+.b-fg_ph img { top: -1638px; }
+
+.b-fg_pk img { top: -1647px; }
+
+.b-fg_pl img { top: -1656px; }
+
+.b-fg_pm img { top: -1665px; }
+
+.b-fg_pn img { top: -1674px; }
+
+.b-fg_pr img { top: -1683px; }
+
+.b-fg_ps img { top: -1692px; }
+
+.b-fg_pt img { top: -1701px; }
+
+.b-fg_pw img { top: -1710px; }
+
+.b-fg_py img { top: -1719px; }
+
+.b-fg_qa img { top: -1728px; }
+
+.b-fg_re img { top: -1737px; }
+
+.b-fg_ro img { top: -1746px; }
+
+.b-fg_rs img { top: -1755px; }
+
+.b-fg_ru img { top: -1764px; }
+
+.b-fg_rw img { top: -1773px; }
+
+.b-fg_sa img { top: -1782px; }
+
+.b-fg_sb img { top: -1791px; }
+
+.b-fg_sc img { top: -1800px; }
+
+.b-fg_sd img { top: -1809px; }
+
+.b-fg_se img { top: -1818px; }
+
+.b-fg_sg img { top: -1827px; }
+
+.b-fg_sh img { top: -1836px; }
+
+.b-fg_si img { top: -1845px; }
+
+.b-fg_sj img { top: -1854px; }
+
+.b-fg_sk img { top: -1863px; }
+
+.b-fg_sl img { top: -1872px; }
+
+.b-fg_sm img { top: -1881px; }
+
+.b-fg_sn img { top: -1890px; }
+
+.b-fg_so img { top: -1899px; }
+
+.b-fg_south-ossetia img { top: -1908px; }
+
+.b-fg_sr img { top: -1917px; }
+
+.b-fg_st img { top: -1926px; }
+
+.b-fg_sv img { top: -1935px; }
+
+.b-fg_sy img { top: -1944px; }
+
+.b-fg_sz img { top: -1953px; }
+
+.b-fg_tc img { top: -1962px; }
+
+.b-fg_td img { top: -1971px; }
+
+.b-fg_tf img { top: -1980px; }
+
+.b-fg_tg img { top: -1989px; }
+
+.b-fg_th img { top: -1998px; }
+
+.b-fg_tj img { top: -2007px; }
+
+.b-fg_tk img { top: -2016px; }
+
+.b-fg_tl img { top: -2025px; }
+
+.b-fg_tm img { top: -2034px; }
+
+.b-fg_tn img { top: -2043px; }
+
+.b-fg_to img { top: -2052px; }
+
+.b-fg_tr img { top: -2061px; }
+
+.b-fg_tt img { top: -2070px; }
+
+.b-fg_tv img { top: -2079px; }
+
+.b-fg_tw img { top: -2088px; }
+
+.b-fg_tz img { top: -2097px; }
+
+.b-fg_ua img { top: -2106px; }
+
+.b-fg_ug img { top: -2115px; }
+
+.b-fg_um img { top: -2124px; }
+
+.b-fg_us img { top: -2133px; }
+
+.b-fg_uy img { top: -2142px; }
+
+.b-fg_uz img { top: -2151px; }
+
+.b-fg_va img { top: -2160px; }
+
+.b-fg_vc img { top: -2169px; }
+
+.b-fg_ve img { top: -2178px; }
+
+.b-fg_vg img { top: -2187px; }
+
+.b-fg_vi img { top: -2196px; }
+
+.b-fg_vn img { top: -2205px; }
+
+.b-fg_vu img { top: -2214px; }
+
+.b-fg_wf img { top: -2223px; }
+
+.b-fg_ws img { top: -2232px; }
+
+.b-fg_ye img { top: -2241px; }
+
+.b-fg_yt img { top: -2250px; }
+
+.b-fg_za img { top: -2259px; }
+
+.b-fg_zm img { top: -2268px; }
+
+.b-fg_zw img { top: -2277px; }
