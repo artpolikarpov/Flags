@@ -1,8 +1,9 @@
 /*	Пиктограммы государственных флагов в спрайте */
+/* v0.1, 8 июля 2011 */
 /*	@author Артём Поликарпов, artpolikarpov.ru (artpolikarpov@gmail.com) */
 /*  @author Никита Иванов (исходные пиктограммы флагов), nickivanov.ru (nickivanov@nickivanov.ru) */
 /* Набор распостраняется на условиях лицензии CC-BY-SA */
-/* Эти летом я был: в <i class="b-fg b-fg_HN"><img src="fg.png"/></i> Гондурасе, <i class="b-fg b-fg_LI"><img src="fg.png"/></i> Лихтенштейне, <i class="b-fg b-fg_SE"><img src="fg.png"/></i> и Швеции. */
+/* Эти летом я был: в <i class="b-fg b-fg_nh"><img src="fg.png"/></i> Гондурасе, <i class="b-fg b-fg_li"><img src="fg.png"/></i> Лихтенштейне, <i class="b-fg b-fg_se"><img src="fg.png"/></i> и Швеции. */
 .b-fg { display: -moz-inline-box; -moz-box-orient: vertical; display: inline-block; *display: inline; *zoom: 1; vertical-align: baseline; position: relative; overflow: hidden; width: 16px; height: 9px; font-size: 0; line-height: 0; }
 .b-fg img { display: inline; border: none; margin: 0; padding: 0; position: relative; top: 9px; -moz-transition-property: top; -webkit-transition-property: top; -o-transition-property: top; transition-property: top; -moz-transition-duration: 0.25s; -webkit-transition-duration: 0.25s; -o-transition-duration: 0.25s; transition-duration: 0.25s; }
 
