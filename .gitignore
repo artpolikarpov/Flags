@@ -1,2 +1,4 @@
 .idea/
 *.zip
+.sass-cache/
+.DS_Store

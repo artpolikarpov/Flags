@@ -1,7 +1,7 @@
 project_type = :stand_alone
 http_path = ""
 css_dir = ""
-sass_dir = ""
+sass_dir = "src"
 images_dir = ""
 output_style = :compact
 relative_assets = true
