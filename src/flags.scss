@@ -1,0 +1,1058 @@
+/* Пиктограммы государственных флагов в спрайте
+/* v0.2, 28 февраля 2012 года
+/* @author Артём Поликарпов, artpolikarpov.ru (artpolikarpov@gmail.com)
+/* @author Никита Иванов (исходные пиктограммы флагов), nickivanov.ru (nickivanov@nickivanov.ru)
+/* Набор распостраняется на условиях лицензии CC-BY-SA
+
+/* Эти летом я был: в <i class="flag-HN"></i> Гондурасе, <i class="flag-LI"></i> Лихтенштейне, и <i class="flag-SE"></i> Швеции. */
+
+@import "compass";
+
+$i: 0;
+$sprite: "flags.png";
+$flagWidth: 16px;
+$flagHeight: 9px;
+
+.flag-NOWHERE {
+  background: url($sprite) no-repeat 0 9px;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: baseline;
+  position: relative;
+  overflow: hidden;
+  width: $flagWidth;
+  height: $flagHeight;
+  font-size: 0;
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin flag {
+  @extend .flag-NOWHERE;
+  background-position: 0 0 - $i * $flagHeight;
+  $i: $i + 1;
+}
+
+.flag-ABKHAZIA {
+  @include flag;
+}
+
+.flag-AD {
+  @include flag;
+}
+
+.flag-AE {
+  @include flag;
+}
+
+.flag-AF {
+  @include flag;
+}
+
+.flag-AG {
+  @include flag;
+}
+
+.flag-AI {
+  @include flag;
+}
+
+.flag-AL {
+  @include flag;
+}
+
+.flag-AM {
+  @include flag;
+}
+
+.flag-AN {
+  @include flag;
+}
+
+.flag-AO {
+  @include flag;
+}
+
+.flag-AQ {
+  @include flag;
+}
+
+.flag-AR {
+  @include flag;
+}
+
+.flag-AS {
+  @include flag;
+}
+
+.flag-AT {
+  @include flag;
+}
+
+.flag-AU {
+  @include flag;
+}
+
+.flag-AW {
+  @include flag;
+}
+
+.flag-AX {
+  @include flag;
+}
+
+.flag-AZ {
+  @include flag;
+}
+
+.flag-BA {
+  @include flag;
+}
+
+.flag-BB {
+  @include flag;
+}
+
+.flag-BD {
+  @include flag;
+}
+
+.flag-BE {
+  @include flag;
+}
+
+.flag-BF {
+  @include flag;
+}
+
+.flag-BG {
+  @include flag;
+}
+
+.flag-BH {
+  @include flag;
+}
+
+.flag-BI {
+  @include flag;
+}
+
+.flag-BJ {
+  @include flag;
+}
+
+.flag-BL {
+  @include flag;
+}
+
+.flag-BM {
+  @include flag;
+}
+
+.flag-BN {
+  @include flag;
+}
+
+.flag-BO {
+  @include flag;
+}
+
+.flag-BR {
+  @include flag;
+}
+
+.flag-BS {
+  @include flag;
+}
+
+.flag-BT {
+  @include flag;
+}
+
+.flag-BV {
+  @include flag;
+}
+
+.flag-BW {
+  @include flag;
+}
+
+.flag-BY {
+  @include flag;
+}
+
+.flag-BZ {
+  @include flag;
+}
+
+.flag-CA {
+  @include flag;
+}
+
+.flag-CC {
+  @include flag;
+}
+
+.flag-CD {
+  @include flag;
+}
+
+.flag-CF {
+  @include flag;
+}
+
+.flag-CG {
+  @include flag;
+}
+
+.flag-CH {
+  @include flag;
+}
+
+.flag-CI {
+  @include flag;
+}
+
+.flag-CK {
+  @include flag;
+}
+
+.flag-CL {
+  @include flag;
+}
+
+.flag-CM {
+  @include flag;
+}
+
+.flag-CN {
+  @include flag;
+}
+
+.flag-CO {
+  @include flag;
+}
+
+.flag-CR {
+  @include flag;
+}
+
+.flag-CU {
+  @include flag;
+}
+
+.flag-CV {
+  @include flag;
+}
+
+.flag-CX {
+  @include flag;
+}
+
+.flag-CY {
+  @include flag;
+}
+
+.flag-CZ {
+  @include flag;
+}
+
+.flag-DE {
+  @include flag;
+}
+
+.flag-DJ {
+  @include flag;
+}
+
+.flag-DK {
+  @include flag;
+}
+
+.flag-DM {
+  @include flag;
+}
+
+.flag-DO {
+  @include flag;
+}
+
+.flag-DZ {
+  @include flag;
+}
+
+.flag-EC {
+  @include flag;
+}
+
+.flag-EE {
+  @include flag;
+}
+
+.flag-EG {
+  @include flag;
+}
+
+.flag-EH {
+  @include flag;
+}
+
+.flag-ER {
+  @include flag;
+}
+
+.flag-ES-CE {
+  @include flag;
+}
+
+.flag-ES-ML {
+  @include flag;
+}
+
+.flag-ES {
+  @include flag;
+}
+
+.flag-ET {
+  @include flag;
+}
+
+.flag-EU {
+  @include flag;
+}
+
+.flag-FI {
+  @include flag;
+}
+
+.flag-FJ {
+  @include flag;
+}
+
+.flag-FK {
+  @include flag;
+}
+
+.flag-FM {
+  @include flag;
+}
+
+.flag-FO {
+  @include flag;
+}
+
+.flag-FR {
+  @include flag;
+}
+
+.flag-GA {
+  @include flag;
+}
+
+.flag-GB {
+  @include flag;
+}
+
+.flag-GD {
+  @include flag;
+}
+
+.flag-GE {
+  @include flag;
+}
+
+.flag-GF {
+  @include flag;
+}
+
+.flag-GG {
+  @include flag;
+}
+
+.flag-GH {
+  @include flag;
+}
+
+.flag-GI {
+  @include flag;
+}
+
+.flag-GL {
+  @include flag;
+}
+
+.flag-GM {
+  @include flag;
+}
+
+.flag-GN {
+  @include flag;
+}
+
+.flag-GP {
+  @include flag;
+}
+
+.flag-GQ {
+  @include flag;
+}
+
+.flag-GR {
+  @include flag;
+}
+
+.flag-GS {
+  @include flag;
+}
+
+.flag-GT {
+  @include flag;
+}
+
+.flag-GU {
+  @include flag;
+}
+
+.flag-GW {
+  @include flag;
+}
+
+.flag-GY {
+  @include flag;
+}
+
+.flag-HK {
+  @include flag;
+}
+
+.flag-HM {
+  @include flag;
+}
+
+.flag-HN {
+  @include flag;
+}
+
+.flag-HR {
+  @include flag;
+}
+
+.flag-HT {
+  @include flag;
+}
+
+.flag-HU {
+  @include flag;
+}
+
+.flag-IC {
+  @include flag;
+}
+
+.flag-ID {
+  @include flag;
+}
+
+.flag-IE {
+  @include flag;
+}
+
+.flag-IL {
+  @include flag;
+}
+
+.flag-IM {
+  @include flag;
+}
+
+.flag-IN {
+  @include flag;
+}
+
+.flag-IO {
+  @include flag;
+}
+
+.flag-IQ {
+  @include flag;
+}
+
+.flag-IR {
+  @include flag;
+}
+
+.flag-IS {
+  @include flag;
+}
+
+.flag-IT {
+  @include flag;
+}
+
+.flag-JE {
+  @include flag;
+}
+
+.flag-JM {
+  @include flag;
+}
+
+.flag-JO {
+  @include flag;
+}
+
+.flag-JP {
+  @include flag;
+}
+
+.flag-KE {
+  @include flag;
+}
+
+.flag-KG {
+  @include flag;
+}
+
+.flag-KH {
+  @include flag;
+}
+
+.flag-KI {
+  @include flag;
+}
+
+.flag-KM {
+  @include flag;
+}
+
+.flag-KN {
+  @include flag;
+}
+
+.flag-KOSOVO {
+  @include flag;
+}
+
+.flag-KP {
+  @include flag;
+}
+
+.flag-KR {
+  @include flag;
+}
+
+.flag-KW {
+  @include flag;
+}
+
+.flag-KY {
+  @include flag;
+}
+
+.flag-KZ {
+  @include flag;
+}
+
+.flag-LA {
+  @include flag;
+}
+
+.flag-LB {
+  @include flag;
+}
+
+.flag-LC {
+  @include flag;
+}
+
+.flag-LI {
+  @include flag;
+}
+
+.flag-LK {
+  @include flag;
+}
+
+.flag-LR {
+  @include flag;
+}
+
+.flag-LS {
+  @include flag;
+}
+
+.flag-LT {
+  @include flag;
+}
+
+.flag-LU {
+  @include flag;
+}
+
+.flag-LV {
+  @include flag;
+}
+
+.flag-LY {
+  @include flag;
+}
+
+.flag-MA {
+  @include flag;
+}
+
+.flag-MC {
+  @include flag;
+}
+
+.flag-MD {
+  @include flag;
+}
+
+.flag-ME {
+  @include flag;
+}
+
+.flag-MF {
+  @include flag;
+}
+
+.flag-MG {
+  @include flag;
+}
+
+.flag-MH {
+  @include flag;
+}
+
+.flag-MK {
+  @include flag;
+}
+
+.flag-ML {
+  @include flag;
+}
+
+.flag-MM {
+  @include flag;
+}
+
+.flag-MN {
+  @include flag;
+}
+
+.flag-MO {
+  @include flag;
+}
+
+.flag-MP {
+  @include flag;
+}
+
+.flag-MQ {
+  @include flag;
+}
+
+.flag-MR {
+  @include flag;
+}
+
+.flag-MS {
+  @include flag;
+}
+
+.flag-MT {
+  @include flag;
+}
+
+.flag-MU {
+  @include flag;
+}
+
+.flag-MV {
+  @include flag;
+}
+
+.flag-MW {
+  @include flag;
+}
+
+.flag-MX {
+  @include flag;
+}
+
+.flag-MY {
+  @include flag;
+}
+
+.flag-MZ {
+  @include flag;
+}
+
+.flag-NA {
+  @include flag;
+}
+
+.flag-NC {
+  @include flag;
+}
+
+.flag-NE {
+  @include flag;
+}
+
+.flag-NF {
+  @include flag;
+}
+
+.flag-NG {
+  @include flag;
+}
+
+.flag-NI {
+  @include flag;
+}
+
+.flag-NKR {
+  @include flag;
+}
+
+.flag-NL {
+  @include flag;
+}
+
+.flag-NO {
+  @include flag;
+}
+
+.flag-NP {
+  @include flag;
+}
+
+.flag-NR {
+  @include flag;
+}
+
+.flag-NU {
+  @include flag;
+}
+
+.flag-NZ {
+  @include flag;
+}
+
+.flag-OM {
+  @include flag;
+}
+
+.flag-PA {
+  @include flag;
+}
+
+.flag-PE {
+  @include flag;
+}
+
+.flag-PF {
+  @include flag;
+}
+
+.flag-PG {
+  @include flag;
+}
+
+.flag-PH {
+  @include flag;
+}
+
+.flag-PK {
+  @include flag;
+}
+
+.flag-PL {
+  @include flag;
+}
+
+.flag-PM {
+  @include flag;
+}
+
+.flag-PN {
+  @include flag;
+}
+
+.flag-PR {
+  @include flag;
+}
+
+.flag-PS {
+  @include flag;
+}
+
+.flag-PT {
+  @include flag;
+}
+
+.flag-PW {
+  @include flag;
+}
+
+.flag-PY {
+  @include flag;
+}
+
+.flag-QA {
+  @include flag;
+}
+
+.flag-RE {
+  @include flag;
+}
+
+.flag-RO {
+  @include flag;
+}
+
+.flag-RS {
+  @include flag;
+}
+
+.flag-RU {
+  @include flag;
+}
+
+.flag-RW {
+  @include flag;
+}
+
+.flag-SA {
+  @include flag;
+}
+
+.flag-SB {
+  @include flag;
+}
+
+.flag-SC {
+  @include flag;
+}
+
+.flag-SD {
+  @include flag;
+}
+
+.flag-SE {
+  @include flag;
+}
+
+.flag-SG {
+  @include flag;
+}
+
+.flag-SH {
+  @include flag;
+}
+
+.flag-SI {
+  @include flag;
+}
+
+.flag-SJ {
+  @include flag;
+}
+
+.flag-SK {
+  @include flag;
+}
+
+.flag-SL {
+  @include flag;
+}
+
+.flag-SM {
+  @include flag;
+}
+
+.flag-SN {
+  @include flag;
+}
+
+.flag-SO {
+  @include flag;
+}
+
+.flag-SOUTH-OSSETIA {
+  @include flag;
+}
+
+.flag-SR {
+  @include flag;
+}
+
+.flag-SS {
+  @include flag;
+}
+
+.flag-ST {
+  @include flag;
+}
+
+.flag-SV {
+  @include flag;
+}
+
+.flag-SY {
+  @include flag;
+}
+
+.flag-SZ {
+  @include flag;
+}
+
+.flag-TC {
+  @include flag;
+}
+
+.flag-TD {
+  @include flag;
+}
+
+.flag-TF {
+  @include flag;
+}
+
+.flag-TG {
+  @include flag;
+}
+
+.flag-TH {
+  @include flag;
+}
+
+.flag-TJ {
+  @include flag;
+}
+
+.flag-TK {
+  @include flag;
+}
+
+.flag-TL {
+  @include flag;
+}
+
+.flag-TM {
+  @include flag;
+}
+
+.flag-TN {
+  @include flag;
+}
+
+.flag-TO {
+  @include flag;
+}
+
+.flag-TR {
+  @include flag;
+}
+
+.flag-TT {
+  @include flag;
+}
+
+.flag-TV {
+  @include flag;
+}
+
+.flag-TW {
+  @include flag;
+}
+
+.flag-TZ {
+  @include flag;
+}
+
+.flag-UA {
+  @include flag;
+}
+
+.flag-UG {
+  @include flag;
+}
+
+.flag-UM {
+  @include flag;
+}
+
+.flag-US {
+  @include flag;
+}
+
+.flag-UY {
+  @include flag;
+}
+
+.flag-UZ {
+  @include flag;
+}
+
+.flag-VA {
+  @include flag;
+}
+
+.flag-VC {
+  @include flag;
+}
+
+.flag-VE {
+  @include flag;
+}
+
+.flag-VG {
+  @include flag;
+}
+
+.flag-VI {
+  @include flag;
+}
+
+.flag-VN {
+  @include flag;
+}
+
+.flag-VU {
+  @include flag;
+}
+
+.flag-WF {
+  @include flag;
+}
+
+.flag-WS {
+  @include flag;
+}
+
+.flag-YE {
+  @include flag;
+}
+
+.flag-YT {
+  @include flag;
+}
+
+.flag-ZA {
+  @include flag;
+}
+
+.flag-ZM {
+  @include flag;
+}
+
+.flag-ZW {
+  @include flag;
+}
